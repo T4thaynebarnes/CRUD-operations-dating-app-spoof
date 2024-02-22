@@ -1,8 +1,8 @@
 // this is the card component housed inside is the CREATE,READ< UPDATE< & DELETE>
-// Create - adding new records to the database.
+// Create - adding new records to the database. postNewUser()- in headers.js
 // Read - retrieving data from the database.  getUsers()
-// Update - modifying existing records in the database.
-// Delete - Removing existing records from the database.
+// Update - modifying existing records in the database. postNewComment()
+// Delete - Removing existing records from the database. deleteUser()
 // *********************************************************
 
 import { useEffect, useState } from "react";
@@ -110,7 +110,7 @@ function Card() {
                     onChange={(e) => setUpdatedComment(e.target.value)}
                   ></textarea>
                   <button
-                    className="button"
+                    className="send-button"
                     onClick={(e) => postnewComment(e, user)}
                   >
                     send📩

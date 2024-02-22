@@ -111,12 +111,21 @@
 .submit-button {
   transition-duration: 0.4s;
   border-radius: 5px;
-  background-color: grey;
+  background-color: rgb(65, 67, 196);
   color: azure;
 }
 .submit-button:hover {
   background-color: #6ad315; /* Green */
   color: white;
+}
+.send-button {
+  background-color: rgb(65, 67, 196);
+  color: azure;
+  border-radius: 5px;
+}
+.send-button:hover {
+  background-color: azure;
+  color: rgb(111, 240, 85);
 }
 
 .container-card {

@@ -1,3 +1,9 @@
+// this reason I chose to call another function in to getUsers(), I do not understand how to pass functions as props.
+// objective to getuser() grabs data from api then i placed a function postNewUser() it handles the PUT request to add a new user
+// interesting but needs a remedy
+
+// OBJECTIVE: renders the top of the page including the sign up form to add a new user. places put request to add new user in api.
+
 import { useEffect, useState } from "react";
 
 function Header() {
