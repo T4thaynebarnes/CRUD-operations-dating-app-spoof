@@ -100,12 +100,12 @@ function Card() {
                 <h5>{user.name}</h5>
                 <h6>Interests: </h6>
                 <label>{user.interests}</label>
-                <h6 className="post-title">Posts:</h6>
+                <h6 className="post-title">other interests:</h6>
                 <div className="posts">
                   <p>{user.comments}</p>
                 </div>
                 <form>
-                  <label>Send a message 😍</label>
+                  <label>make something up to match the picture!</label>
                   <textarea
                     onChange={(e) => setUpdatedComment(e.target.value)}
                   ></textarea>
